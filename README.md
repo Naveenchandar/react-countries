@@ -12,7 +12,7 @@ https://react-countries-list.netlify.app/
 5. Deploy on github-pages using `npm run deploy` command.
 
 ```bash
-git clone <url>
+git clone <https://github.com/Naveenchandar/react-countries.git>
 ```
 
 <img src="https://user-images.githubusercontent.com/37447901/108675429-c92a9300-750c-11eb-8e8b-de6b38912ce2.png" width="90%"></img> <img src="https://user-images.githubusercontent.com/37447901/108675715-30e0de00-750d-11eb-8f01-f587c6d393c4.png" width="90%"></img>
