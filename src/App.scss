@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/bootstrap";
+
+$fontSize: 13px;
+.card-image{
+    display: flex;
+    margin-bottom: 16px;
+    .card-img-top{
+        height: 50px;
+        width: 60px;
+        margin-right: 8px;
+        object-fit: cover;
+    }
+}
+
+.country-card{
+    padding: 0;
+    cursor: pointer;
+}
+
+.label-text{
+    font-size: $fontSize;
+    margin-bottom: 0;
+}
+
+.card-body{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.capital,.population{
+    font-size: $fontSize + 2;
+    margin-bottom: 0;
+}
+
+.modal-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul>li{
+    list-style: none;
+}
+
+.modal-country-flagdiv{
+    display: flex;
+    align-items: center;
+    img{
+        // border-radius: 50%;
+        height: 150px;
+        display: flex;
+    }
+}
+
+.modal-country-details{
+    display: flex;
+    align-items: center;
+}
+
+.search-input{
+    margin-left: -13px;
+    margin-top: 20px;
+}
